@@ -1,0 +1,18 @@
+First install 
+Python version 3.10 or 3.11
+
+git clone https://github.com/yourusername/food_delivery_prediction.git
+cd food_delivery_prediction
+
+python -m venv .venv
+source .venv/bin/activate     # On Windows: .venv\Scripts\activate
+
+pip install -r requirements.txt
+
+cd model_training
+python train_model.py
+
+
+cd app
+streamlit run streamlit_app.py
+
